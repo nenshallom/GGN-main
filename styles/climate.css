@@ -1,0 +1,279 @@
+/* body {
+    background-image: url(../images/banner/clouds1.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+} */
+section {
+    width: 97%;
+    min-height: 550px;
+    /* border: 1px solid red; */
+    margin: 5rem auto;
+    background-image: url(../images/banner/clouds1.png);
+    background-color: whitesmoke;
+    max-width: 600px;
+
+    -webkit-box-shadow: 0 7px 10px -2px #14351D;
+    -moz-box-shadow: 0 7px 10px -2px #14351D;box-shadow: 0 7px 10px -2px #14351D;
+}
+
+#heading_container {
+    /* border: 1px solid red; */
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 17px;
+}
+#heading1, #heading2 {
+    /* color: red; */
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+#heading1 {
+    font-family: 'poppins';
+    color: brown;
+}
+#heading2 {
+    /* border: 1px solid red; */
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    padding: 3px 5px;
+    background-color: #548072;
+    color: white;
+    font-family: 'Crimson text';
+}
+#heading2:hover {
+    background-color: green;
+}
+
+#climate_container_one {
+    /* border: 1px solid green; */
+    /* height: max-content; */
+    display: flex;
+    justify-content: space-around;
+}
+#image_one {
+    background-image: url(../images/banner/GGNearth.png);
+    padding: 5em;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    z-index: -1;
+    margin-top: 2rem;
+}
+.WYD {
+    text-align: left;
+    color: green;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    font-family: 'Crimson text';
+    /* color: rgb(0, 128, 0); */
+    /* border: 3px solid yellow; */
+}
+#user_can_do_container {
+    /* border: 1px solid red; */
+    width: 100%;
+    float: right;
+    margin-top: .5rem;
+}
+#user_can_do {
+    width: 100%;
+    /* border: 1px solid green; */
+    /* margin-bottom: 10px; */
+    margin: 0 auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content:start;
+    font-family: 'lato';
+}
+
+#user_can_do_icon, #Benefit_icon {
+    padding-left: 5px;
+    /* align-self: flex-start; */
+}
+.italics_text {
+    font-size: 15px;
+    color: gray;
+}
+/* media Query */
+@media(min-width: 530px) and (max-width: 650px) {
+    #image_one {
+     padding: 6em;
+     /* border: 1px solid blue; */
+    }
+    .WYD {
+    /* padding-right: 25px; */
+    /* text-align: left; */
+    /* border: 1px solid red; */
+    font-size: 25px;
+    }
+    #user_can_do_text{
+        /* border: 1px solid red; */
+        font-size: 20px;
+        /* align-self: center; */
+    }
+   
+    #user_can_do_container {
+        /* width: 110%; */
+    }
+    #user_can_do{
+        margin-top: 10px;
+    }
+   
+ }
+
+ @media(min-width: 650px) {
+    #image_one {
+        padding: 7em;
+        /* border: 1px solid red; */
+       }
+       .WYD {
+            font-size: 25px;
+            /* padding-right: 50px; */
+           
+       }
+       #user_can_do_text{
+           /* border: 1px solid red; */
+           font-size: 20px;
+           /* align-self: center; */
+       }
+       #user_can_do_container {
+           /* width: 110%; */
+       }
+       #user_can_do{
+           margin-top: 10px;
+       }
+       .climate_icon {
+           /* display: none; */
+           /* border: 1px solid red; */
+       }
+}
+
+
+
+#climate_container_two {
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    min-height: 200px;
+}
+#Benefit_list_container {
+    /* margin-top: 13rem; */
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: .5rem;
+    width: 100%;
+}
+.BNF {
+    text-align: center;
+    font-size: 20px;
+    /* margin-top: 1.5rem; */
+    color: rgb(0, 128, 0);
+    font-family: 'Crimson text';
+}
+#Benefit_text_list {
+    display: flex;
+    border: 1px solid whitesmoke;
+    padding: 5px 7px;
+    background-color: rgba(128, 128, 128, 0.46);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+
+}
+#Benefit_text h4 {
+    /* border: 1px solid red; */
+    width: 100%;
+    font-family: 'lato';
+}
+
+#Benefit_image_container {
+    align-self: center;
+    /* border: 1px solid red; */
+}
+#Benefit_image {
+    background-image: url(../images/banner/peoplePlanting.png);
+    padding: 4em;
+    /* border: 1px solid red; */
+    /* background-position: center; */
+    border-radius: 10px;
+    background-size: contain;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    z-index: -1;
+    /* margin-top: 5rem; */
+}
+@media(min-width: 530px) {
+    .BNF {
+        font-size: 25px;
+        /* border: 1px solid blue; */
+    }
+    #Benefit_list_container {
+        font-size: 15px;
+    }
+    #Benefit_text_list {
+        margin-top: 10px;
+    }
+    #Benefit_image {
+        padding: 6em;
+    }
+}
+#form_heading {
+    color: green;
+    font-family: 'Crimson text';
+    text-align: center;
+}
+.climate_input {
+    width: 100%;
+    padding: 8px 5px;
+    background-color: rgba(0, 128, 0, 0.406);
+    border: 1px solid #548072;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+
+@media(min-width: 530px) and (max-width: 650px) {
+   
+}
+/* ----------------------------------------- */
+@media(min-width: 650px) and (max-width: 800px) {
+   
+}
+/* ----------------------------------------- */
+@media(min-width: 800px) and (max-width: 1000px) {
+    
+}
+/* ----------------------------------------- */
+@media(max-width: 370px) {
+    #image_one, #Benefit_image {
+        padding: 3em;
+    }
+    #heading1, #heading2 {
+        font-size: 15px;
+    }
+    .WYD{
+        font-size: 15px;
+    }
+    #user_can_do_text, .italics_text, #Benefit_list_container {
+        font-size: 13px;
+    }
+     iconify-icon {
+        display: none;
+     }
+
+}
+

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO tags -->
+    <meta name="description" content="Buying of Food Items">
+    <meta name="author" content="GreenGrowsNatural">
+
+    <!-- Open Graph Protocol -->
+    <meta property="og:title" content="Available Food Items Products">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="https://ggnfarm.netlify.app/">
+    <meta property="og:description" content="Affordable Food stuff items">
+    <meta property="og:image" content="Ggn-logo.png">
+    <meta property="og:locale" content="en_NG">
+    <meta property="og:site_name" content="GreenGrowsNatural(GGN)">
+
+    <!-- Style links -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:wght@500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:ital,wght@1,300">
+    <link rel="icon" type="image/x-icon" href="./images/icons/Ggn-logo.png">
+    <link rel="stylesheet" href="./styles.css">
+    <title>GGN</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <!-- logo -->
+            <div id="nav_icon">
+                <a href="#" id="nav-branding"><img src="./images/icons/Ggn-logo.png" alt=""></a>
+            </div>
+
+            <!-- nav items -->
+            <ul id="nav-menu" class="nav-menu"> 
+                <li id="nav-item"><a href="#" id="nav-link">Home</a></li>
+                <li id="nav-item"><a href="#products_container" id="nav-link">Products</a></li>
+                <!-- <li id="nav-item"><a href="#footer_content" id="nav-link">Contact</a></li> -->
+                <li id="nav-item"><a href="./pages/FAQ.html#about_container" id="nav-link">FAQ</a></li>
+                <!--TODO Create climate page -->
+                <li id="nav-item" class="climate_option"><a href="./pages/climate.html" id="nav-link">Climate Fight</a></li>
+            </ul>
+
+            <div id="hamburger" class="hamburger">
+                <span id="bar"></span>
+                <span id="bar"></span>
+                <span id="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div id="banner">
+        <div id="banner_content">
+            <div id="banner_bigText">
+                <h1><span id="box_green">G</span>reen<br> <span id="box_green">G</span>rows<br><span id="box_green">N</span>atural</h1> 
+            </div>
+
+            <div id="banner_subText">
+                <p>Quality and Quantity at Amazing cost.</p>
+            </div>
+            
+            <a href="#products">
+                <button id="contact_btn">
+                    <h4>Shop Now</h4>
+                </button>
+            </a>
+
+            <!-- SOCIAL MEDIA ICONS -->
+            <!-- <div id="social_container">
+                <ul id="social_account" style="font-size: 0.5rem;">
+                    <li id="account"><a href="https://twitter.com/GGN_farm">
+                        <iconify-icon icon="akar-icons:twitter-fill" style="color: #14351d;" width="22"></iconify-icon>
+                    </a></li>
+                    <li id="account"><a href="https://wa.me/message/KAFNIJOFFXCBM1">
+                        <iconify-icon icon="fa-brands:whatsapp-square" style="color: #14351d;" width="22"></iconify-icon>
+                    </a></li>
+                    <li id="account"><a href="#">
+                        <iconify-icon icon="bxl:facebook" style="color: #14351d;" width="22"></iconify-icon>
+                    </a></li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- products -->
+    <div id="products_container">
+        <div id="products_headText">
+            <h1 style="font-family: 'poppins';">PRODUCTS & PRODUCE</h1>
+        </div>
+
+        <div id="products" class="grid-even-columns">
+            <div id="product">
+                <div id="product_img" class="chicken">
+                    <span id="price"><h2>₦3,600</h2></span>
+                </div>
+                <div id="product_details">
+                    <h1>Broiler Chicken</h1>
+                    <p>6 weeks old <Span id="available_icon"></Span></p>
+                </div>
+
+                <!-- ORDER BUTTON NOT ACTIVE -->
+                <div id="btn_container">
+                    <button id="order_btn">
+                        <a href="#order_text">Order</a>
+                    </button>
+                </div>
+               
+            </div>
+
+            <div id="product">
+                <div id="product_img" class="fish">
+                    
+                    <span id="price"><h2>₦8,000</h2></span>
+                </div>
+                <div id="product_details">
+                    <h1>Dry Cat Fish</h1>
+                    <p>1kg Dried<Span id="available_icon"></Span></p>
+                </div>
+                <div id="btn_container">
+                    <button id="order_btn">
+                        <a href="#order_text">Order</a>
+                    </button>
+                </div>
+            </div>
+
+            <div id="product">
+                <div id="product_img" class="irish">
+                   
+                    <span id="price"><h2>₦25,000</h2></span>
+                </div>
+                <div id="product_details">
+                    <h1>Irish Potatoes</h1>
+                    <p>NPK Fertilizer Bag<Span id="available_icon"></Span></p>
+                </div>
+                <div id="btn_container">
+                    <button id="order_btn">
+                        <a href="#order_text">Order</a>
+                    </button>
+                </div>
+            </div>
+
+            <div id="product">
+                <div id="product_img" class="ginger">
+                   
+                    <span id="price"><h2><span class="cross">₦2,000</span> <br> Item Unavailable </h2></span>
+                </div>
+                <div id="product_details">
+                    <h1>Fresh Ginger</h1>
+                    <p>1 Measure<Span id="available_icon"></Span></p>
+                </div>
+                
+                <!-- ORDER BUTTON NOT ACTIVE -->
+                <div id="btn_container">
+                    <button id="order_btn">
+                        <a href="#order_text">Order</a>
+                    </button>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+
+
+    <div id="order_text"><h3>Fill the Form below to make your Order</h3></div>
+
+    <!-- Order Form -->
+    <form action="" name="New_Order" netlify>
+        <input type="hidden" name="subject" value="Product order" />
+        <div class="new_order_headText">
+        <h3><span style="color: #1435;">select your </span>Order Quantity</h3>
+        </div>
+        <fieldset id="Product_Qty_container">
+            <fieldset id="product_check">
+                <label>
+                    Chicken
+                </label>
+                <label>
+                    Fresh Ginger
+                </label>
+                <label>
+                    Dry Fish
+                </label>
+                <label>
+                    Irish Potatoes
+                </label>
+            </fieldset>
+            <fieldset id="quantity_container">
+                <label id="label1">
+                    <select name="Chicken_Qty" onchange="showfield1(this.options[this.selectedIndex].value)">
+                        <option value="">QUANTITY(numb)</option>
+                        <option value="10">1-10</option>
+                        <option value="20">11-20</option>
+                        <option value="30">Over 20</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="number" name="chicken_other_num" id="other_option" class="other" placeholder=" Other(kg)">
+                </label>
+                <label id="label1">
+                    <select name="Ginger_Qty" onchange="showfield4(this.options[this.selectedIndex].value)">
+                        <option value="">QUANTITY(kg)</option>
+                        <option value="1">1 (kg)</option>
+                        <option value="2">2 (kg)</option>
+                        <option value="3">3 (kg)</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="number" name="ginger_other_num" id="ginger_option" class="other" placeholder=" Other(kg)">
+                </label>
+                <label id="label1">
+                    <select name="DryFish_Qty" onchange="showfield2(this.options[this.selectedIndex].value)">
+                        <option value="">QUANTITY(kg)</option>
+                        <option value="1">1 (kg)</option>
+                        <option value="2">2 (kg)</option>
+                        <option value="3">3 (kg)</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="number" name="dry_fish_other_num" id="dry_fish_option" class="other" placeholder=" Other(kg)">
+                </label>
+                <label id="label1">
+                    <select name="Irish_Qty" onchange="showfield3(this.options[this.selectedIndex].value)">
+                        <option value="">QUANTITY(Bag)</option>
+                        <option value="1">Half Bag</option>
+                        <option value="2">1 Bag</option>
+                        <option value="3">2 Bags</option>
+                        <option value="other">Other </option>
+                        
+                    </select>
+                    <input type="number" name="irish_other_num" id="irish_option" class="other" placeholder=" Other(kg)">
+                </label>
+              
+            </fieldset>
+        </fieldset>
+
+        <!-- first more info -->
+        <!-- <div id="more_info" class="first_more_info">
+            <div id="more_info_icon">
+                <iconify-icon icon="iwwa:information" width="25" style="color: #0a0a23d2;"></iconify-icon>
+            </div>
+            <div id="more_info_text">Select "Other" for higher orders and we'll discuss amazing discounts</div>
+        </div> -->
+        <h3 class="personal_detail_heading">Delivery <span style="color: #14351d;">Details</span></h3>
+        <fieldset id="personal_details">
+            <label>
+                Enter Your Full Name: <input type="text" name="full_name" class="inline" placeholder="Full Name" required>
+            </label>
+            <!-- <label>
+                Enter Your Last Name: <input type="text" name="last_name" class="inline" placeholder="Last Name" required>
+            </label> -->
+            <label>
+                Enter Your Email: <input type="email" name="email_address" class="inline" placeholder="Email Address" required />
+            </label>
+            <!-- <label class="inline">Enter Your Address: <input type="text" name="address" class="inline" placeholder="Full Address" required /></label> -->
+            <!-- TODO! set min and max numbers for the telephone numb -->
+            <label>
+                Phone Number <span class="whatsapp">(whatsapp preferably)</span> : <input type="tel" name="phone_numb" id="Phone" minlength="11" maxlength="14" class="inline" placeholder="+234" required>
+            </label>
+            <label>
+                Delivery Address:<textarea name="address" rows="3" cols="30" placeholder="delivery Address..." required></textarea>
+            </label>
+            <label>State of Delivery: 
+                <select name="stateOfDelivery" id="state" onchange="showfield5(this.options[this.selectedIndex].value)">
+                    <option value="">State</option>
+                    <option value="plateau">Plateau State</option>
+                    <option value="bauchi">Bauchi State</option>
+                    <option value="abuja">Abuja</option>
+                    <option value="other">other</option>
+                </select>
+                <input type="text" name="other_state" id="other_state" class="inline other_state" placeholder="Enter State">
+            </label>
+
+            <!-- <div id="more_info" class="more_info_one more_info_top">
+                <div id="more_info_icon">
+                    <iconify-icon icon="iwwa:information" width="25" style="color: #0a0a23d2;"></iconify-icon>
+                </div>
+                <div id="more_info_text">Select "Other" for state not listed and we will discuss delivery and other options</div>
+            </div> -->
+        </fieldset>
+
+
+        <input type="submit" value="Submit" />
+    </form>
+
+    <div id="more_info">
+        <div id="more_info_icon" class="more_info_icon">
+            <iconify-icon icon="el:idea" style="color: rgb(255, 166, 0);"></iconify-icon>
+        </div>
+        <div id="more_info_text" class="more_info_text">We will be Happy to connect with you</div>
+    </div>
+
+    <div id="social_container" class="social_container">
+        <ul id="social_account" style="font-size: 0.5rem;">
+            <li id="account"><a href="https://twitter.com/GGN_farm">
+                <iconify-icon icon="akar-icons:twitter-fill" style="color: #14351d;" width="22"></iconify-icon>
+            </a></li>
+            <li id="account"><a href="https://wa.me/message/TUPJWP5GCQAAI1">
+                <iconify-icon icon="fa-brands:whatsapp-square" style="color: #14351d;" width="22"></iconify-icon>
+            </a></li>
+            <li id="account"><a href="https://web.facebook.com/GreenGrowsNatural">
+                <iconify-icon icon="bxl:facebook" style="color: #14351d;" width="22"></iconify-icon>
+            </a></li>
+            <li id="account"><a href="tel: +2347047814457">
+                <iconify-icon icon="carbon:phone-filled" width="22" style="color: #14351d;"></iconify-icon>
+            </a></li>
+        </ul>
+    </div>
+
+        <!-- Health section -->
+        <div id="health_container">
+            <div id="health_text">
+                <div id="text">
+                    <h3><span style="color: green;">Affordable</span> Nourishment: <br>Your <span style="color: green;">Trusted Solution</span> <br> in Rising <span style="color: green;">Food Cost</span></h3>
+                </div>
+            </div>
+            <div id="health_picture">
+               <div id="image_container">
+                    <!-- <img src="./images/products/potatoes-5796_640.jpg" alt=""> -->
+               </div>
+            </div>
+        </div>
+
+    <!--Partners sections -->
+    <div id="partners_container">
+        <div id="partners_head">
+            <h2>Our Partner</h2>
+        </div>
+        <div id="partner_one">
+            <img src="./images/icons/RUGOSHA-logo.png" alt="">
+        </div>
+    </div>
+
+    <!-- finish footer -->
+    <footer>
+       <div id="footer_content">
+            <!-- <div id="about_container">
+                <h2>About</h2>
+                <div id="about_text">
+                    <p>"GGN" as we call is a platform and meduim that provides different agricultural product and produce. Our products are grown by us and also from selected partnered farms. We make product Quality serious business at GGN and strive and work hard to ensure that we are growing the best produce as organically as we can and our animals get the optimal attention as we rear them. Our partners are selected based on high standards.  </p>
+                </div>
+            </div> -->
+            <div id="quicklinks_container">
+                <h2>Quick Links</h2>
+                <div id="quick_links">
+                    <ul>
+                        <!-- TODO create FAQ page -->
+                        <li><a href="../pages/FAQ.html#contact_us_container">Contact Us</a></li>
+                        <li><a href="../pages/FAQ.html#faq">FAQ</a></li>
+                        <li><a href="#products_container">Products</a></li>
+                    </ul>
+                </div>
+            </div>
+       </div>
+
+       <div id="footer_line">
+        <span></span>
+       </div>
+
+       <div id="footer_copyright">
+            <h3>Copyright © 2022 All Rights Reserved</h3>
+       </div>
+
+    </footer>
+
+
+
+
+    <!-- js -->
+    <script src="./script.js"></script>
+ 
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+</body>
+</html>
+<!-- TODO! -->
+<!-- set up zaps -->
+<!-- set up climate page and email with button to display registration form -->
+<!--FAQ page-->
+<!-- request for form screenshot to comapar and set universal text colors -->
+<!-- work on content and content materials -->
+<!-- consider user experience of the whole website and simplicity to use -->

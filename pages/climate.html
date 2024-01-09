@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:wght@500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:ital,wght@1,300">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="../images/icons/Ggn-logo.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles/climate.css">
+    <title>Climate</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <!-- logo -->
+            <div id="nav_icon">
+                <a href="#" id="nav-branding"><img src="../images/icons/Ggn-logo.png" alt=""></a>
+            </div>
+
+            <!-- nav items -->
+            <ul id="nav-menu" class="nav-menu">
+                <li id="nav-item"><a href="../index.html" id="nav-link">Home</a></li>
+                <li id="nav-item"><a href="../index.html#products_container" id="nav-link">Product</a></li>
+                <!-- <li id="nav-item"><a href="#footer_content" id="nav-link">Contact</a></li> -->
+                <li id="nav-item"><a href="./FAQ.html#about_container" id="nav-link">FAQ</a></li>
+                <!--TODO Create climate page -->
+                <li id="nav-item" class="climate_option"><a href="./climate.html" id="nav-link">Join Climate Fight</a></li>
+            </ul>
+
+            <div id="hamburger" class="hamburger">
+                <span id="bar"></span>
+                <span id="bar"></span>
+                <span id="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- -->
+    <section>
+        <div id="heading_container">
+            <div id="heading1">
+                <h3>Climate Fight!</h3>
+            </div>
+
+            <a href="#climate-form">
+                <div id="heading2">
+                    <h3>Join Us!</h3>
+                </div>
+            </a>
+        </div>
+
+        <div id="climate_container">
+            <div id="climate_container_one">
+                <div class="climate_image_container">
+                    <div id="image_one"></div>
+                </div>
+                <div id="climate_text_container">
+                    <h4 class="WYD">What you can do</h4>
+                    <div id="user_can_do_container">
+                        <div id="user_can_do">
+                            <div id="user_can_do_text">
+                                <h4>You can plant Trees</h4>
+                            </div>
+                            <div id="user_can_do_icon">
+                                <iconify-icon icon="ant-design:check-circle-outlined" style="color: green;"class="climate_icon" width="15"></iconify-icon>
+                            </div>
+                        </div>
+                        <div id="user_can_do">
+                            <div id="user_can_do_text">
+                                <h4>You can Provide Trees</h4>
+                            </div>
+                            <div id="user_can_do_icon">
+                                <iconify-icon icon="ant-design:check-circle-outlined" style="color: green;" width="15"></iconify-icon>
+                            </div>
+                        </div>
+                        <div id="user_can_do">
+                            <div id="user_can_do_text">
+                                <h4>You can be a Motivator</h4>
+                            </div>
+                            <div id="user_can_do_icon">
+                                <iconify-icon icon="ant-design:check-circle-outlined" style="color: green;" width="15"></iconify-icon>
+                            </div>
+                        </div>   
+                        <div id="user_can_do">
+                            <div id="user_can_do_text">
+                                <h4><i class="italics_text">There is something for everyone todo..</i></h4>
+                            </div>
+                        </div>                                      
+                    </div> 
+                </div>
+            </div>
+
+
+            <div id="climate_container_two">
+                <div id="Benefit_text_container" style="width: 50%;">
+                    <h4 class="BNF">Benefit's</h4>
+                    <div id="Benefit_list_container">
+                        <div id="Benefit_text_list">
+                            <div id="Benefit_text">
+                                <h4>Be Part of an Amazing Community</h4>
+                            </div>
+                        </div>
+                        <div id="Benefit_text_list">
+                            <div id="Benefit_text">
+                                <h4>Network with like-minded person's</h4>
+                            </div>
+                        </div>
+                        <div id="Benefit_text_list">
+                            <div id="Benefit_text">
+                                <h4>Literalily Make your Environment Better</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="Benefit_image_container" style="width: 50%;">
+                    <div id="Benefit_image"></div>
+                </div>
+            </div>
+            <!-- join climate fight form -->
+            <form action="" name="Climate-Volunteer" id="climate-form" netlify style="width: 100%;">
+                <h4 id="form_heading">Be Part of Us Now!</h4>
+                <fieldset>
+                    <label for="full_name">
+                        <input type="text" name="full_name" required placeholder="Full Name" class="climate_input">
+                    </label>
+                    <label for="phone_num">
+                        <!-- TODO! confirm the input pattern works -->
+                        <input type="tel" name="phone_num" pattern="[0-9, -+]*" placeholder="Phone Numb e.g 0901122..." class="climate_input" minlength="11" maxlength="14" oninvalid="this.setCustomValidity('Enter Valid Phone Numb such as 09012345678 ')"
+                        oninput="this.setCustomValidity('')" required>
+                    </label>
+                    <label for="user_email">
+                        <input type="email" name="user_email" placeholder="Email Address" class="climate_input" required>
+                    </label>
+                    <!-- <label for="full_name">
+                        <input type="text" name="state" required placeholder="State" class="climate_input"> -->
+                    </label>
+
+                    <!-- TODO! testing states drop down -->
+                    <label>
+                        <select name="stateOfRecidence" id="state" style="background-color: rgba(0, 128, 0, 0.406);" onchange="showfield5(this.options[this.selectedIndex].value)">
+                            <option value="">State</option>
+                            <option value="plateau">Plateau State</option>
+                            <option value="bauchi">Bauchi State</option>
+                            <option value="abuja">Abuja</option>
+                            <option value="other">other</option>
+                        </select>
+                        <input type="text" name="other_state" id="other_state" class="inline other_state" style="background-color: rgba(0, 128, 0, 0.406);" placeholder="Enter State">
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit"/>
+            </form>
+        </div> 
+
+        <div id="more_info">
+            <div id="more_info_icon" class="more_info_icon">
+                <iconify-icon icon="el:idea" style="color: rgb(255, 166, 0);"></iconify-icon>
+            </div>
+            <div id="more_info_text" class="more_info_text">We will be Happy to connect with you</div>
+        </div>
+    
+        <div id="social_container" class="social_container">
+            <ul id="social_account" style="font-size: 0.5rem;">
+                <li id="account"><a href="https://twitter.com/GGN_farm">
+                    <iconify-icon icon="akar-icons:twitter-fill" style="color: #14351d;" width="22"></iconify-icon>
+                </a></li>
+                <li id="account"><a href="https://wa.me/message/TUPJWP5GCQAAI1">
+                    <iconify-icon icon="fa-brands:whatsapp-square" style="color: #14351d;" width="22"></iconify-icon>
+                </a></li>
+                <li id="account"><a href="https://web.facebook.com/GreenGrowsNatural">
+                    <iconify-icon icon="bxl:facebook" style="color: #14351d;" width="22"></iconify-icon>
+                </a></li>
+                <li id="account"><a href="tel: +2347047814457">
+                    <iconify-icon icon="carbon:phone-filled" width="22" style="color: #14351d;"></iconify-icon>
+                </a></li>
+            </ul>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <footer>
+        <div id="footer_content">
+             <div id="quicklinks_container">
+                 <h2>Quick Links</h2>
+                 <div id="quick_links">
+                    <ul>
+                        <!-- TODO create FAQ page -->
+                        <li><a href="../pages/FAQ.html#contact_us_container">Contact Us</a></li>
+                        <li><a href="../pages/FAQ.html#faq">FAQ</a></li>
+                        <li><a href="../index.html#products_container">Products</a></li>
+                    </ul>
+                 </div>
+             </div>
+        </div>
+ 
+        <div id="footer_line">
+         <span></span>
+        </div>
+ 
+        <div id="footer_copyright">
+             <h3>Copyright © 2022 All Rights Reserved</h3>
+        </div>
+ 
+    </footer>
+
+
+
+     <!-- js -->
+     <script src="../script.js"></script>
+ 
+     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+</body>
+</html>
